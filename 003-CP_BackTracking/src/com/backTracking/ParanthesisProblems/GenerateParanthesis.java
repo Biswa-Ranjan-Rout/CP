@@ -38,6 +38,6 @@ public class GenerateParanthesis {
 			backTracking(brackets, cur, open, close + 1, n);
 			cur.deleteCharAt(cur.length() - 1);
 		}
-		System.out.println();
+		System.out.println("end");
 	}
 }
