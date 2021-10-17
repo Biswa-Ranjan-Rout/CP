@@ -6,7 +6,7 @@ public class SecondLargeEleInArray_NaiveApproach {
 	public static void main(String[] args) {
 		
 		int[] arr = new int[] { 60, 0, 99, 98, 4, 24, 1 };
-		//int[] arr = new int[] { 9,9,9,9 };
+		// int[] arr = new int[] { 9,9,9,9 };
 		
 		int res = findSecondLargest(arr);
 		System.out.println("Largest element is: " + res);
@@ -24,6 +24,7 @@ public class SecondLargeEleInArray_NaiveApproach {
 		}
 	
 		for (int i = 0; i < arr.length; i++) {
+			// We re checking if current element is not max and smaller than current sec_max
 			if (arr[i] != max && arr[i] > sec_max) {
 				sec_max = arr[i];
 			}
