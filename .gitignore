@@ -1,6 +1,6 @@
 .metadata
 Demo
-*/bin
+#*/bin
 *gitignore
 .classpath
 .project
