@@ -15,6 +15,7 @@ public class LeftRotateArrayBy_K_times {
 		}
 	}
 
+	// Time complexity is: O(nk)
 	private static void leftRotate_K_times(int[] arr) {
 		int first = arr[0];
 
