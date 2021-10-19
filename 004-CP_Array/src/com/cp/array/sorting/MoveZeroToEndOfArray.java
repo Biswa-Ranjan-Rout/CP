@@ -24,6 +24,8 @@ public class MoveZeroToEndOfArray {
 						int temp = arr[j];
 						arr[j] = arr[i];
 						arr[i] = temp;
+						
+						i++; // This will maintain the order
 					}
 				}
 			}
