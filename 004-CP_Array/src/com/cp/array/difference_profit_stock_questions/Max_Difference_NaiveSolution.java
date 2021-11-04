@@ -1,4 +1,4 @@
-package com.cp.array.difference;
+package com.cp.array.difference_profit_stock_questions;
 
 // Find maximum difference between two elements 
 public class Max_Difference_NaiveSolution {
