@@ -26,8 +26,7 @@ public class III_Sum_Leetcode_15 {
 			while (start < end) {
 				int sum = nums[start] + nums[end];
 				if (sum == (-nums[i])) { // minus and plus of same number will be zero
-					set.add(Arrays.asList(nums[i], nums[start], nums[end]));
-					break;
+					set.add(Arrays.asList(nums[i], nums[start++], nums[end--]));
 				} else if (sum < -nums[i]) {
 					start += 1;
 				} else if (sum > -nums[i]) {
