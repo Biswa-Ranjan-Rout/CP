@@ -32,7 +32,7 @@ public class Binary_Search {
 	 * is reducing to half of current size in each iteration. Thats why time
 	 * complexity is O(log n)
 	 */
-	private static int b_search(int[] arr, int ele) {
+	public static int b_search(int[] arr, int ele) {
 		int low = 0, high = arr.length - 1;
 
 		while (low <= high) {
